@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%">
+  <style>
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    .code-text {
+      font-family: monospace;
+      fill: #fff;
+      font-size: 14px;
+    }
+  </style>
+
+  <rect width="100%" height="100%" rx="8" fill="#1e1e1e" stroke="#12efc3" stroke-width="1"/>
+
+  <text x="20" y="40" class="code-text">const copilot = new CodingAgent();</text>
+  <text x="20" y="70" class="code-text">copilot.optimizeProfile();</text>
+</svg>
