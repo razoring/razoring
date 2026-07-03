@@ -1,4 +1,4 @@
-name: Generate Game of Life
+name: Update README
 
 on:
   schedule:
