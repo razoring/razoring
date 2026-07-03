@@ -4,3 +4,9 @@
     <img alt="Hello world" src="light.svg" width="100%">
   </picture>
 </a>
+
+### Languages Used
+<p>
+<!-- LANGUAGES_START -->
+<!-- LANGUAGES_END -->
+</p>
