@@ -791,7 +791,6 @@
     <animate attributeName="fill" values="#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#a5e4b3" dur="4.800000000000001s" repeatCount="indefinite" />
   </rect>
   <rect x="686" y="88" width="10" height="10" rx="2" ry="2" fill="#eff2f5" />
-  <text x="696" y="115" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#a5e4b3">Game of Commits
-    <animate attributeName="fill" values="#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#eff2f5;#a5e4b3;#eff2f5;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#a5e4b3" dur="4.800000000000001s" repeatCount="indefinite" />
-  </text>
-</svg>
+f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{colors[avg[0]]}">Game of Commits',
+        f'    <animate attributeName="fill" values="{text_vals}" dur="{len(history) * 0.2}s" repeatCount="indefinite" />',
+        f'  </text>',</svg>

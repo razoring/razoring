@@ -87,9 +87,9 @@ for name, colors in [("dark", DARK), ("light", LIGHT)]:
                 
     text_vals = ";".join([colors[v] for v in avg])
     out.extend([
-        f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{colors[avg[0]]}">Game of Commits',
+        """f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{colors[avg[0]]}">Game of Commits',
         f'    <animate attributeName="fill" values="{text_vals}" dur="{len(history) * 0.2}s" repeatCount="indefinite" />',
-        f'  </text>',
+        f'  </text>',"""
         f'</svg>'
     ])
     
