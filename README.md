@@ -5,7 +5,7 @@
   </picture>
 </a>
 
-### Languages Used
+### Languages
 <p>
 <!-- LANGUAGES_START -->
 <!-- LANGUAGES_END -->
