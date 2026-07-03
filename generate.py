@@ -22,7 +22,7 @@ for _ in range(GENS):
 
 w, h = COLS*CELL+(COLS-1)*GAP+2*PAD, ROWS*CELL+(ROWS-1)*GAP+2*PAD
 for name, colors in [("dark", DARK), ("light", LIGHT)]:
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">', f'  <rect width="{w}" height="{h}" fill="{colors[0]}" />']
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {w} {h}">', f'  <rect width="{w}" height="{h}" fill="{colors[0]}" />']
     for c in range(COLS):
         for r in range(ROWS):
             x, y = PAD+c*(CELL+GAP), PAD+r*(CELL+GAP)
