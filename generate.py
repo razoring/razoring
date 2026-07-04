@@ -70,7 +70,7 @@ avg = [avg[0]] * HOLD + avg + [avg[-1]] * HOLD + [avg[0]]
 
 # produce svg
 w = COLS * CELL + (COLS - 1) * GAP + 2 * PAD
-h = ROWS * CELL + (ROWS - 1) * GAP + 2 * PAD + 15
+h = ROWS * CELL + (ROWS - 1) * GAP + 2 * PAD + 5
 for name, colors in [("dark", DARK), ("light", LIGHT)]:
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {w} {h}">',
@@ -112,12 +112,12 @@ for name, colors in [("dark", DARK), ("light", LIGHT)]:
         op_vals[i] = "1"
         
         gen_text = f"GENERATION: {gen}/{len(history)}"
-        out.extend([
+        """out.extend([
             f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="\'Inter\', \'Roboto\', \'Helvetica Neue\', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{blended[0]}" opacity="0">{gen_text}',
             f'    <animate attributeName="fill" values="{text_vals}" dur="{len(history) * 0.2}s" repeatCount="indefinite" calcMode="linear" />',
             f'    <animate attributeName="opacity" values="{";".join(op_vals)}" dur="{len(history) * 0.2}s" repeatCount="indefinite" calcMode="discrete" />',
             f'  </text>'
-        ])
+        ])"""
         
     out.append('</svg>')
     
