@@ -174,7 +174,7 @@ for name, info in sorted_langs:
     colour = info["color"].replace("#", "")
     
     badges.append(
-        f'<img src="https://img.shields.io/badge/{url_name}-{percent:.1f}%25-{colour}?style=flat&logo={logo}&logoColor=white" alt="{name}" />'
+        f'<img src="https://img.shields.io/badge/{url_name}-{percent:.1f}%25-{colour}?style=for-the-badge&logo={logo}&logoColor=white" alt="{name}" />'
     )
 
 lang_html = "\n".join(badges)
@@ -206,7 +206,7 @@ for fw in sorted(list(frameworks_found)):
     conf = FW_CONFIG[fw]
     safe_name = urllib.parse.quote(fw)
     fw_badges.append(
-        f'<img src="https://img.shields.io/badge/{safe_name}-{conf["color"]}?style=flat&logo={conf["logo"]}&logoColor=white" alt="{fw}" />'
+        f'<img src="https://img.shields.io/badge/{safe_name}-{conf["color"]}?style=for-the-badge&logo={conf["logo"]}&logoColor=white" alt="{fw}" />'
     )
 
 fw_html = "\n".join(fw_badges)
