@@ -23,7 +23,7 @@ def fetch_repos():
         query = f"""
         {{
           viewer {{
-            repositories(first: 100, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER], isFork: false{after_clause}) {{
+            repositories(first: 100, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]{after_clause}) {{
               pageInfo {{
                 hasNextPage
                 endCursor
@@ -57,11 +57,16 @@ def fetch_repos():
         try:
             response = urllib.request.urlopen(req)
             data = json.loads(response.read().decode("utf-8"))
+            if "errors" in data:
+                print("GraphQL Errors:")
+                print(json.dumps(data["errors"], indent=2))
         except urllib.error.URLError as e:
             print(f"Failed to fetch data: {e}")
             exit(1)
             
         repos = data["data"]["viewer"]["repositories"]
+        for r in repos["nodes"]:
+            print(f"Fetched repo: {r['name']}")
         all_repos.extend(repos["nodes"])
         has_next_page = repos["pageInfo"]["hasNextPage"]
         end_cursor = repos["pageInfo"]["endCursor"]
@@ -88,10 +93,14 @@ if size == 0:
 
 sorted_langs = sorted(languages.items(), key=lambda x: x[1]["size"], reverse=True)
 
+print("Languages found:")
+for name, info in sorted_langs:
+    print(f" - {name}: {(info['size']/size)*100:.2f}%")
+
 badges = []
 for name, info in sorted_langs:
     percent = (info["size"]/size) * 100
-    if percent < 0.5:
+    if percent < 0.05:
         continue
     
     logo = urllib.parse.quote(name.lower().replace(" ", "-"))
