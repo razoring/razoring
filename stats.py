@@ -103,7 +103,21 @@ for name, info in sorted_langs:
     if percent < 0.05:
         continue
     
-    logo = urllib.parse.quote(name.lower().replace(" ", "-"))
+    raw_name = name.lower().strip()
+    icon_map = {
+        "html": "html5",
+        "css": "css3",
+        "jupyter notebook": "jupyter",
+        "shell": "gnubash",
+        "dockerfile": "docker",
+        "tex": "latex",
+        "objective-c": "apple",
+        "java": "openjdk",
+        "c++": "cplusplus",
+        "c#": "csharp",
+    }
+    logo_name = icon_map.get(raw_name, raw_name.replace(" ", "-"))
+    logo = urllib.parse.quote(logo_name)
     url_name = urllib.parse.quote(name.replace("-", " "))
     colour = info["color"].replace("#", "")
     
@@ -111,7 +125,7 @@ for name, info in sorted_langs:
         f'<img src="https://img.shields.io/badge/{url_name}-{percent:.1f}%25-{colour}?style=flat&logo={logo}&logoColor=white" alt="{name}" />'
     )
 
-html = "<br>\n".join(badges)
+html = "\n".join(badges)
 
 with open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
