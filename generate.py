@@ -85,12 +85,27 @@ for name, colors in [("dark", DARK), ("light", LIGHT)]:
             else:
                 out.append(f'  <rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" ry="2" fill="{colors[0]}" />')
                 
-    text_vals = ";".join([colors[v] for v in avg])
-    out.extend([
-        """f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{colors[avg[0]]}">Game of Commits',
-        f'    <animate attributeName="fill" values="{text_vals}" dur="{len(history) * 0.2}s" repeatCount="indefinite" />',
-        f'  </text>',"""
-        f'</svg>'
-    ])
+    total_frames = len(avg)
+    for i in range(total_frames):
+        if i < HOLD:
+            gen = 0
+        elif i < HOLD + len(history):
+            gen = i - HOLD
+        elif i < HOLD + len(history) + HOLD:
+            gen = len(history) - 1
+        else:
+            gen = 0
+            
+        op_vals = ["0"] * total_frames
+        op_vals[i] = "1"
+        
+        gen_text = f"{gen}/{total_frames} GENERATION{'S' if gen != 1 else ''}"
+        out.extend([
+            f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="\'Inter\', \'Roboto\', \'Helvetica Neue\', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{colors[avg[i]]}" opacity="0">{gen_text}',
+            f'    <animate attributeName="opacity" values="{";".join(op_vals)}" dur="{len(history) * 0.2}s" repeatCount="indefinite" calcMode="discrete" />',
+            f'  </text>'
+        ])
+        
+    out.append('</svg>')
     
     with open(f"{name}.svg", "w", encoding="utf-8") as f: f.write("\n".join(out))

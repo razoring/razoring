@@ -887,6 +887,325 @@
     <animate attributeName="fill" values="#033a16;#033a16;#033a16;#033a16;#033a16;#033a16;#151b23;#151b23;#151b23;#151b23;#033a16;#033a16;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#151b23;#033a16" dur="19.200000000000003s" repeatCount="indefinite" />
   </rect>
   <rect x="686" y="88" width="10" height="10" rx="2" ry="2" fill="#151b23" />
-f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{colors[avg[0]]}">Game of Commits',
-        f'    <animate attributeName="fill" values="{text_vals}" dur="{len(history) * 0.2}s" repeatCount="indefinite" />',
-        f'  </text>',</svg>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">0/107 GENERATIONS
+    <animate attributeName="opacity" values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">0/107 GENERATIONS
+    <animate attributeName="opacity" values="0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">0/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">0/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">0/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">0/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">1/107 GENERATION
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">2/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">3/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">4/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">5/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">6/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">7/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">8/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">9/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">10/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">11/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">12/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">13/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">14/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">15/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">16/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">17/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">18/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">19/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">20/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">21/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">22/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">23/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">24/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">25/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">26/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">27/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">28/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">29/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">30/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">31/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">32/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">33/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">34/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">35/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">36/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">37/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">38/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">39/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">40/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">41/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">42/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">43/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">44/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">45/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">46/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">47/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">48/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">49/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">50/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">51/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">52/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">53/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">54/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">55/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">56/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">57/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">58/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">59/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">60/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">61/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">62/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">63/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">64/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">65/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">66/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">67/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">68/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">69/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">70/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">71/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">72/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">73/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">74/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">75/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">76/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">77/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">78/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">79/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">80/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">81/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">82/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">83/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">84/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">85/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">86/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">87/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">88/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">89/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">90/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">91/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">92/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">93/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">94/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">95/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">95/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">95/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">95/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">95/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">95/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+  <text x="696" y="115" font-family="'Inter', 'Roboto', 'Helvetica Neue', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#033a16" opacity="0">0/107 GENERATIONS
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" dur="19.200000000000003s" repeatCount="indefinite" calcMode="discrete" />
+  </text>
+</svg>
