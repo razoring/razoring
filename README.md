@@ -44,3 +44,7 @@
 <img src="https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Premiere Pro" />
 <img src="https://img.shields.io/badge/After%20Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=white" alt="After Effects" />
 </p>
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=razoring&style=for-the-badge&color=blue&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
