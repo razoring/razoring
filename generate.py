@@ -1,6 +1,16 @@
 import urllib.request
 import re
 
+def hex_blend(c1, c2, t):
+    r1, g1, b1 = int(c1[1:3], 16), int(c1[3:5], 16), int(c1[5:7], 16)
+    r2, g2, b2 = int(c2[1:3], 16), int(c2[3:5], 16), int(c2[5:7], 16)
+    return f"#{int(r1 + (r2 - r1) * t):02x}{int(g1 + (g2 - g1) * t):02x}{int(b1 + (b2 - b1) * t):02x}"
+
+def get_color(val, palette):
+    idx = int(val)
+    if idx >= 4: return palette[4]
+    return hex_blend(palette[idx], palette[idx+1], val - idx)
+
 DARK = ["#151b23", "#033a16", "#196c2e", "#2ea043", "#56d364"]
 LIGHT = ["#eff2f5", "#a5e4b3", "#4ac26b", "#2da44e", "#116329"]
 COLS, ROWS, CELL, GAP, PAD = 53, 7, 10, 3, 10
@@ -51,9 +61,9 @@ for _ in range(GENS):
 # calculate weighted average colour
 avg = []
 for g in history:
-    total_val = sum(c * (1 + 1 * c) for row in g for c in row)
-    weighted_count = max(1, sum((1 + 1 * c) if c > 0 else 0.1 for row in g for c in row))
-    avg.append(min(4, round(total_val / weighted_count)))
+    total_val = sum(c * (c ** 2) for row in g for c in row)
+    weighted_count = max(1, sum((c ** 2) if c > 0 else 0.1 for row in g for c in row))
+    avg.append(min(4.0, total_val / weighted_count))
 
 # hold first/last frames
 avg = [avg[0]] * HOLD + avg + [avg[-1]] * HOLD + [avg[0]]
@@ -86,6 +96,8 @@ for name, colors in [("dark", DARK), ("light", LIGHT)]:
                 out.append(f'  <rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" ry="2" fill="{colors[0]}" />')
                 
     total_frames = len(avg)
+    blended = [get_color(v, colors) for v in avg]
+    text_vals = ";".join(blended)
     for i in range(total_frames):
         if i < HOLD:
             gen = 0
@@ -99,9 +111,10 @@ for name, colors in [("dark", DARK), ("light", LIGHT)]:
         op_vals = ["0"] * total_frames
         op_vals[i] = "1"
         
-        gen_text = f"{gen}/{total_frames} GENERATION{'S' if gen != 1 else ''}"
+        gen_text = f"GENERATION: {gen}/{len(history)}"
         out.extend([
-            f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="\'Inter\', \'Roboto\', \'Helvetica Neue\', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{colors[avg[i]]}" opacity="0">{gen_text}',
+            f'  <text x="{w - PAD}" y="{h - PAD + 2}" font-family="\'Inter\', \'Roboto\', \'Helvetica Neue\', sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="{blended[0]}" opacity="0">{gen_text}',
+            f'    <animate attributeName="fill" values="{text_vals}" dur="{len(history) * 0.2}s" repeatCount="indefinite" calcMode="linear" />',
             f'    <animate attributeName="opacity" values="{";".join(op_vals)}" dur="{len(history) * 0.2}s" repeatCount="indefinite" calcMode="discrete" />',
             f'  </text>'
         ])
