@@ -818,8 +818,8 @@
   <rect x="686" y="23" width="10" height="10" rx="2" ry="2" fill="#a5e4b3">
     <animate attributeName="fill" values="#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#a5e4b3" dur="6.0s" repeatCount="indefinite" />
   </rect>
-  <rect x="686" y="36" width="10" height="10" rx="2" ry="2" fill="#eff2f5">
-    <animate attributeName="fill" values="#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5" dur="6.0s" repeatCount="indefinite" />
+  <rect x="686" y="36" width="10" height="10" rx="2" ry="2" fill="#a5e4b3">
+    <animate attributeName="fill" values="#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#a5e4b3" dur="6.0s" repeatCount="indefinite" />
   </rect>
   <rect x="686" y="49" width="10" height="10" rx="2" ry="2" fill="#a5e4b3">
     <animate attributeName="fill" values="#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#a5e4b3;#a5e4b3;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#eff2f5;#a5e4b3" dur="6.0s" repeatCount="indefinite" />
