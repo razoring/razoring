@@ -4,7 +4,12 @@ import urllib.error
 import urllib.parse
 import json
 import re
-from dotenv import load_dotenv
+
+try:
+    from dotenv import load_dotenv
+except ModuleNotFoundError:
+    def load_dotenv():
+        return False
 
 load_dotenv()
 TOKEN = os.environ.get("GH_TOKEN") or os.getenv("GH_TOKEN")
