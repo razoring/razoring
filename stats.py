@@ -204,10 +204,14 @@ FW_CONFIG = {
     "Keras": {"color": "D00000", "logo": "keras"},
     "Matplotlib": {"color": "11557c", "logo": "python"},
     "SciPy": {"color": "8CAAE6", "logo": "scipy"},
+    "Blender": {"color": "F5792A", "logo": "blender"},
 }
 
 fw_badges = []
 for fw in sorted(list(frameworks_found)):
+    # Skip frameworks we don't have a config for to avoid KeyError
+    if fw not in FW_CONFIG:
+        continue
     conf = FW_CONFIG[fw]
     safe_name = urllib.parse.quote(fw)
     fw_badges.append(
@@ -219,18 +223,18 @@ fw_html = "\n".join(fw_badges)
 with open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
 
-# Replace Languages
+# Replace Languages (start a collapsible block here and close it in the frameworks section)
 readme = re.sub(
     r'<!-- LANGUAGES_START -->.*?<!-- LANGUAGES_END -->',
-    f'<!-- LANGUAGES_START -->\n{lang_html}\n<!-- LANGUAGES_END -->',
+    f'<!-- LANGUAGES_START -->\n<details>\n<summary><small>Repository stats — click to expand</small></summary>\n\n{lang_html}\n',
     readme,
     flags=re.DOTALL
 )
 
-# Replace Frameworks
+# Replace Frameworks (insert frameworks and close the collapsible block)
 readme = re.sub(
     r'<!-- FRAMEWORKS_START -->.*?<!-- FRAMEWORKS_END -->',
-    f'<!-- FRAMEWORKS_START -->\n{fw_html}\n<!-- FRAMEWORKS_END -->',
+    f'<!-- FRAMEWORKS_START -->\n{fw_html}\n\n</details>\n<!-- FRAMEWORKS_END -->',
     readme,
     flags=re.DOTALL
 )
