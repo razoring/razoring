@@ -216,26 +216,31 @@ for fw in sorted(list(frameworks_found)):
 
 fw_html = "\n".join(fw_badges)
 
+badges_html = (
+    '<details>\n'
+    '  <summary>GitHub Stats</summary>\n\n'
+    '  ### Languages\n'
+    '  <p>\n'
+    f'{lang_html}\n'
+    '  </p>\n\n'
+    '  ### Frameworks\n'
+    '  <p>\n'
+    f'{fw_html}\n'
+    '  </p>\n'
+    '</details>'
+)
+
 with open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
 
-# Replace Languages
 readme = re.sub(
-    r'<!-- LANGUAGES_START -->.*?<!-- LANGUAGES_END -->',
-    f'<!-- LANGUAGES_START -->\n{lang_html}\n<!-- LANGUAGES_END -->',
+    r'<!-- GITHUB_STATS_START -->.*?<!-- GITHUB_STATS_END -->',
+    f'<!-- GITHUB_STATS_START -->\n{badges_html}\n<!-- GITHUB_STATS_END -->',
     readme,
     flags=re.DOTALL
 )
 
-# Replace Frameworks
-readme = re.sub(
-    r'<!-- FRAMEWORKS_START -->.*?<!-- FRAMEWORKS_END -->',
-    f'<!-- FRAMEWORKS_START -->\n{fw_html}\n<!-- FRAMEWORKS_END -->',
-    readme,
-    flags=re.DOTALL
-)
-
-with open("README.md", "w", encoding="utf-8") as f: 
+with open("README.md", "w", encoding="utf-8") as f:
     f.write(readme)
 
 print("Updated README.md with language and framework stats.")
