@@ -220,6 +220,18 @@ for fw in sorted(list(frameworks_found)):
 
 fw_html = "\n".join(fw_badges)
 
+tools_html = (
+    '<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />\n'
+    '<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />\n'
+    '<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />\n'
+    '<img src="https://img.shields.io/badge/Antigravity-000000?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />\n'
+    '<BR>\n'
+    '<img src="https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white" alt="Adobe Illustrator" />\n'
+    '<img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt="Adobe Photoshop" />\n'
+    '<img src="https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Premiere Pro" />\n'
+    '<img src="https://img.shields.io/badge/After%20Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=white" alt="After Effects" />'
+)
+
 badges_html = (
     '<details>\n'
     '  <summary>GitHub Stats</summary>\n\n'
@@ -230,6 +242,10 @@ badges_html = (
     '  ### Frameworks\n'
     '  <p>\n'
     f'{fw_html}\n'
+    '  </p>\n\n'
+    '  ### Tools\n'
+    '  <p>\n'
+    f'{tools_html}\n'
     '  </p>\n'
     '</details>'
 )
