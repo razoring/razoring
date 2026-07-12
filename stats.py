@@ -204,10 +204,14 @@ FW_CONFIG = {
     "Keras": {"color": "D00000", "logo": "keras"},
     "Matplotlib": {"color": "11557c", "logo": "python"},
     "SciPy": {"color": "8CAAE6", "logo": "scipy"},
+    "Blender": {"color": "F5792A", "logo": "blender"},
 }
 
 fw_badges = []
 for fw in sorted(list(frameworks_found)):
+    # Skip frameworks we don't have a config for to avoid KeyError
+    if fw not in FW_CONFIG:
+        continue
     conf = FW_CONFIG[fw]
     safe_name = urllib.parse.quote(fw)
     fw_badges.append(
