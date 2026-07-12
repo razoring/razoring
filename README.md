@@ -5,11 +5,6 @@
   </picture>
 </a>
 
-### GitHub Stats
-<details>
-<summary>GitHub Stats</summary>
-
-<p>
 <!-- GITHUB_STATS_START -->
 <details>
   <summary>GitHub Stats</summary>
@@ -39,11 +34,9 @@
 <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />
 <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
   </p>
-</details>
-<!-- GITHUB_STATS_END -->
-</p>
-</details>
-
+  
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=razoring&style=for-the-badge&color=blue&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
+</details>
+<!-- GITHUB_STATS_END -->
