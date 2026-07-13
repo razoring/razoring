@@ -4,6 +4,7 @@ import urllib.error
 import urllib.parse
 import json
 import re
+import html
 
 try:
     from dotenv import load_dotenv
@@ -220,6 +221,9 @@ for fw in sorted(list(frameworks_found)):
 
 fw_html = "\n".join(fw_badges)
 
+profile_views_url = "https://komarev.com/ghpvc/?username=razoring&style=for-the-badge&color=blue&label=Profile%20Views"
+profile_views_html = f'<img src="{html.escape(profile_views_url, quote=True)}" alt="Profile Views" />'
+
 tools_html = (
     '<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />\n'
     '<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />\n'
@@ -242,6 +246,10 @@ badges_html = (
     '  ### Frameworks\n'
     '  <p>\n'
     f'{fw_html}\n'
+    '  </p>\n\n'
+    '  ### Profile Views\n'
+    '  <p>\n'
+    f'{profile_views_html}\n'
     '  </p>\n\n'
     '  ### Tools\n'
     '  <p>\n'
