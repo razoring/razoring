@@ -247,14 +247,11 @@ badges_html = (
     '  <p>\n'
     f'{fw_html}\n'
     '  </p>\n\n'
-    '  ### Profile Views\n'
-    '  <p>\n'
-    f'{profile_views_html}\n'
-    '  </p>\n\n'
     '  ### Tools\n'
     '  <p>\n'
     f'{tools_html}\n'
-    '  </p>\n'
+    '  </p>\n\n'
+    f'{profile_views_html}\n'
     '</details>'
 )
 

@@ -35,11 +35,6 @@
 <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
   </p>
 
-  ### Profile Views
-  <p>
-<img src="https://komarev.com/ghpvc/?username=razoring&amp;style=for-the-badge&amp;color=blue&amp;label=Profile%20Views" alt="Profile Views" />
-  </p>
-
   ### Tools
   <p>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -52,5 +47,7 @@
 <img src="https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Premiere Pro" />
 <img src="https://img.shields.io/badge/After%20Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=white" alt="After Effects" />
   </p>
+
+<img src="https://komarev.com/ghpvc/?username=razoring&amp;style=for-the-badge&amp;color=blue&amp;label=Profile%20Views" alt="Profile Views" />
 </details>
 <!-- GITHUB_STATS_END -->
