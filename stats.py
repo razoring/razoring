@@ -154,8 +154,10 @@ print("Frameworks found:")
 for fw in frameworks_found:
     print(f" - {fw}")
 
-# Generate Language Badges
-badges = []
+# Update README.md in place to preserve manual formatting
+with open("README.md", "r", encoding="utf-8") as f:
+    readme = f.read()
+
 for name, info in sorted_langs:
     percent = (info["size"]/size) * 100
     if percent < 0.05:
@@ -179,11 +181,14 @@ for name, info in sorted_langs:
     url_name = urllib.parse.quote(name.replace("-", " "))
     colour = info["color"].replace("#", "")
     
-    badges.append(
-        f'<img src="https://img.shields.io/badge/{url_name}-{percent:.1f}%25-{colour}?style=for-the-badge&logo={logo}&logoColor=white" alt="{name}" />'
-    )
-
-lang_html = "\n".join(badges)
+    new_badge = f'<img src="https://img.shields.io/badge/{url_name}-{percent:.1f}%25-{colour}?style=for-the-badge&logo={logo}&logoColor=white" alt="{name}" />'
+    
+    pattern = re.compile(r'<img[^>]*alt="' + re.escape(name) + r'"[^>]*>')
+    if pattern.search(readme):
+        readme = pattern.sub(lambda m: new_badge, readme)
+    else:
+        lang_section_pattern = re.compile(r'(### Languages\s*<p>.*?)(</p>)', re.DOTALL)
+        readme = lang_section_pattern.sub(lambda m: m.group(1) + new_badge + '\n  ' + m.group(2), readme, count=1)
 
 # Generate Framework Badges
 FW_CONFIG = {
@@ -208,64 +213,21 @@ FW_CONFIG = {
     "Blender": {"color": "F5792A", "logo": "blender"},
 }
 
-fw_badges = []
 for fw in sorted(list(frameworks_found)):
-    # Skip frameworks we don't have a config for to avoid KeyError
     if fw not in FW_CONFIG:
         continue
     conf = FW_CONFIG[fw]
     safe_name = urllib.parse.quote(fw)
-    fw_badges.append(
-        f'<img src="https://img.shields.io/badge/{safe_name}-{conf["color"]}?style=for-the-badge&logo={conf["logo"]}&logoColor=white" alt="{fw}" />'
-    )
-
-fw_html = "\n".join(fw_badges)
-
-profile_views_url = "https://komarev.com/ghpvc/?username=razoring&style=for-the-badge&color=blue&label=Profile%20Views"
-profile_views_html = f'<img src="{html.escape(profile_views_url, quote=True)}" alt="Profile Views" />'
-
-tools_html = (
-    '<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />\n'
-    '<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />\n'
-    '<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />\n'
-    '<img src="https://img.shields.io/badge/Antigravity-000000?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />\n'
-    '<BR>\n'
-    '<img src="https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white" alt="Adobe Illustrator" />\n'
-    '<img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt="Adobe Photoshop" />\n'
-    '<img src="https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Premiere Pro" />\n'
-    '<img src="https://img.shields.io/badge/After%20Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=white" alt="After Effects" />'
-)
-
-badges_html = (
-    '<details>\n'
-    '  <summary>GitHub Stats</summary>\n\n'
-    '  ### Languages\n'
-    '  <p>\n'
-    f'{lang_html}\n'
-    '  </p>\n\n'
-    '  ### Frameworks\n'
-    '  <p>\n'
-    f'{fw_html}\n'
-    '  </p>\n\n'
-    '  ### Tools\n'
-    '  <p>\n'
-    f'{tools_html}\n'
-    '  </p>\n\n'
-    f'{profile_views_html}\n'
-    '</details>'
-)
-
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
-
-readme = re.sub(
-    r'<!-- GITHUB_STATS_START -->.*?<!-- GITHUB_STATS_END -->',
-    f'<!-- GITHUB_STATS_START -->\n{badges_html}\n<!-- GITHUB_STATS_END -->',
-    readme,
-    flags=re.DOTALL
-)
+    new_badge = f'<img src="https://img.shields.io/badge/{safe_name}-{conf["color"]}?style=for-the-badge&logo={conf["logo"]}&logoColor=white" alt="{fw}" />'
+    
+    pattern = re.compile(r'<img[^>]*alt="' + re.escape(fw) + r'"[^>]*>')
+    if pattern.search(readme):
+        readme = pattern.sub(lambda m: new_badge, readme)
+    else:
+        fw_section_pattern = re.compile(r'(### Frameworks\s*<p>.*?)(</p>)', re.DOTALL)
+        readme = fw_section_pattern.sub(lambda m: m.group(1) + new_badge + '\n  ' + m.group(2), readme, count=1)
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(readme)
 
-print("Updated README.md with language and framework stats.")
+print("Updated README.md with language and framework stats (preserved custom format).")

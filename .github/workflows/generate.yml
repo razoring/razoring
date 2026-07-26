@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 0 */2 * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -15,16 +15,15 @@ jobs:
       - name: Deterministic Execution Check
         id: check
         run: |
-          # Create a deterministic binary decision based on the current date
-          DATE=$(date +%Y-%m-%d)
-          HASH=$(echo -n $DATE | md5sum | cut -c1)
+          # Run every other day by checking days since epoch
+          DAYS=$(($(date +%s) / 86400))
           
-          # 50% chance: if hex character is 0-7, run. Otherwise, skip.
-          if [[ "$HASH" =~ [0-7] ]]; then
+          # Skip one day: run if days since epoch is even (or odd)
+          if (( DAYS % 2 == 0 )); then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Deterministic check failed for $DATE, skipping generation."
+            echo "Skipping generation today."
           fi
 
       - name: Setup Python
