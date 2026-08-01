@@ -49,8 +49,8 @@ jobs:
       - name: Commit and Push
         if: steps.check.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "107324584+razoring@users.noreply.github.com"
+          git config --local user.name "razoring"
           git add dark.svg light.svg README.md
           git commit -m "Update Game of Life simulation and GitHub Stats" || echo "No changes to commit"
           git push
