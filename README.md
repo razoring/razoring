@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/Java-0.2%25-b07219?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
 <img src="https://img.shields.io/badge/HLSL-0.1%25-aace60?style=for-the-badge&logo=hlsl&logoColor=white" alt="HLSL" />
 <img src="https://img.shields.io/badge/Swift-0.1%25-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
-<img src="https://img.shields.io/badge/C%23-0.1%25-178600?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/C%23-0.1%25-7355dd?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
 <img src="https://img.shields.io/badge/Jupyter%20Notebook-0.1%25-DA5B0B?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
   <img src="https://img.shields.io/badge/TypeScript-1.9%25-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/TeX-0.1%25-3D6117?style=for-the-badge&logo=latex&logoColor=white" alt="TeX" />
