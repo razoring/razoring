@@ -11,9 +11,9 @@
 
   ### Languages
   <p>
-<img src="https://img.shields.io/badge/Python-55.5%25-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/HTML-34.6%25-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/JavaScript-5.8%25-f1e05a?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Python-55.3%25-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/HTML-34.5%25-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+<img src="https://img.shields.io/badge/JavaScript-6.0%25-f1e05a?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
 <img src="https://img.shields.io/badge/CSS-0.9%25-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
 <img src="https://img.shields.io/badge/ShaderLab-0.6%25-222c37?style=for-the-badge&logo=shaderlab&logoColor=white" alt="ShaderLab" />
 <img src="https://img.shields.io/badge/Java-0.2%25-b07219?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
