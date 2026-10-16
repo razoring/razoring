@@ -11,26 +11,36 @@
 
   ### Languages
   <p>
-<img src="https://img.shields.io/badge/Python-33.6%25-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/HTML-19.0%25-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/JavaScript-3.7%25-f1e05a?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/CSS-0.6%25-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
+<img src="https://img.shields.io/badge/Python-4.4%25-3572A5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/HTML-22.2%25-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+<img src="https://img.shields.io/badge/JavaScript-28.3%25-f1e05a?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+<img src="https://img.shields.io/badge/CSS-0.4%25-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
 <img src="https://img.shields.io/badge/ShaderLab-0.3%25-222c37?style=for-the-badge&logo=shaderlab&logoColor=white" alt="ShaderLab" />
-<img src="https://img.shields.io/badge/Java-0.1%25-b07219?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Java-0.3%25-b07219?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
 <img src="https://img.shields.io/badge/HLSL-0.1%25-aace60?style=for-the-badge&logo=hlsl&logoColor=white" alt="HLSL" />
 <img src="https://img.shields.io/badge/Swift-0.1%25-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
 <img src="https://img.shields.io/badge/C%23-0.1%25-7355dd?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
 <img src="https://img.shields.io/badge/Jupyter%20Notebook-0.1%25-DA5B0B?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
-  <img src="https://img.shields.io/badge/TypeScript-2.4%25-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/TypeScript-1.1%25-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/TeX-0.1%25-3D6117?style=for-the-badge&logo=latex&logoColor=white" alt="TeX" />
-  <img src="https://img.shields.io/badge/C-15.7%25-555555?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Go-16.1%25-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/C%2B%2B-5.4%25-f34b7d?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Objective%20C-0.2%25-438eff?style=for-the-badge&logo=apple&logoColor=white" alt="Objective-C" />
+  <img src="https://img.shields.io/badge/C-10.8%25-555555?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Go-0.8%25-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/C%2B%2B-24.3%25-f34b7d?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Objective%20C-0.1%25-438eff?style=for-the-badge&logo=apple&logoColor=white" alt="Objective-C" />
   <img src="https://img.shields.io/badge/CMake-0.3%25-DA3434?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
   <img src="https://img.shields.io/badge/PowerShell-0.1%25-012456?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Shell-0.1%25-89e051?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" />
-  <img src="https://img.shields.io/badge/Cuda-2.0%25-3A4E3A?style=for-the-badge&logo=cuda&logoColor=white" alt="Cuda" />
+  <img src="https://img.shields.io/badge/Shell-0.2%25-89e051?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" />
+  <img src="https://img.shields.io/badge/Cuda-0.1%25-3A4E3A?style=for-the-badge&logo=cuda&logoColor=white" alt="Cuda" />
+  <img src="https://img.shields.io/badge/Kotlin-3.5%25-A97BFF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Rust-1.7%25-dea584?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Assembly-0.7%25-6E4C13?style=for-the-badge&logo=assembly&logoColor=white" alt="Assembly" />
+  <img src="https://img.shields.io/badge/Objective%20C%2B%2B-0.2%25-6866fb?style=for-the-badge&logo=objective-c%2B%2B&logoColor=white" alt="Objective-C++" />
+  <img src="https://img.shields.io/badge/Makefile-0.2%25-427819?style=for-the-badge&logo=makefile&logoColor=white" alt="Makefile" />
+  <img src="https://img.shields.io/badge/WebIDL-0.2%25-cccccc?style=for-the-badge&logo=webidl&logoColor=white" alt="WebIDL" />
+  <img src="https://img.shields.io/badge/Fluent-0.1%25-ffcc33?style=for-the-badge&logo=fluent&logoColor=white" alt="Fluent" />
+  <img src="https://img.shields.io/badge/GLSL-0.1%25-5686a5?style=for-the-badge&logo=glsl&logoColor=white" alt="GLSL" />
+  <img src="https://img.shields.io/badge/SCSS-0.1%25-c6538c?style=for-the-badge&logo=scss&logoColor=white" alt="SCSS" />
+  <img src="https://img.shields.io/badge/NSIS-0.1%25-cccccc?style=for-the-badge&logo=nsis&logoColor=white" alt="NSIS" />
   </p>
 
   ### Frameworks
