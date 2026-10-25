@@ -160,7 +160,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 for name, info in sorted_langs:
     percent = (info["size"]/size) * 100
-    if percent < 0.05:
+    if percent <= 0.1:
         continue
     
     raw_name = name.lower().strip()
@@ -231,3 +231,4 @@ with open("README.md", "w", encoding="utf-8") as f:
     f.write(readme)
 
 print("Updated README.md with language and framework stats (preserved custom format).")
+
