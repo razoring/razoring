@@ -23,7 +23,7 @@
 <img src="https://img.shields.io/badge/Jupyter%20Notebook-0.1%25-DA5B0B?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
   <img src="https://img.shields.io/badge/TypeScript-1.1%25-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/TeX-0.1%25-3D6117?style=for-the-badge&logo=latex&logoColor=white" alt="TeX" />
-  <img src="https://img.shields.io/badge/C-10.8%25-555555?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C-10.7%25-555555?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/Go-0.8%25-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/C%2B%2B-24.3%25-f34b7d?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Objective%20C-0.1%25-438eff?style=for-the-badge&logo=apple&logoColor=white" alt="Objective-C" />
